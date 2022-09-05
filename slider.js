@@ -14,6 +14,7 @@ template.innerHTML = `
 
 p {
   text-align: center;
+  margin: 0;
 }
 
 .potrait {
@@ -38,7 +39,6 @@ p {
 
 .buttons {
   position: relative;
-  top: -20px;
   margin: 0 auto;
 }
 .buttons a {
@@ -85,12 +85,10 @@ p {
 
 <img src="./images/potrait.jpg" alt="potrait" class="potrait">
 
-<p class="name">Katrina Kenny
-  <p />
-<p class="title">Sector Specialist at Ministry of Education
-  <p />
+<p class="name">Katrina Kenny<p />
+<p class="title">Sector Specialist at Ministry of Education<p />
 
-  <button class="view-btn">View CV Sample</button>
+<button class="view-btn">View CV Sample</button>
 
 <div class="btns hidden-mobile">
   <div class="prev">
